@@ -1,11 +1,10 @@
 {
-  "name": "@daoswap/core",
+  "name": "@daoswap-heco/core-contract",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Core contracts for the Daoswap protocol",
-  "repository": "https://github.com/NoodlesGroup/daoswap-core",
+  "repository": "https://github.com/daoswap-heco/core-contract",
   "keywords": [
-    "uniswap",
     "daoswap",
     "ethereum"
   ],
