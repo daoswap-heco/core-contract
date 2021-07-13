@@ -15,16 +15,16 @@ module.exports = {
       // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
       // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     },
-    mainnet: {
-      provider: () => new HDWalletProvider(mnemonic, 'https://http-mainnet.hecochain.com'),
-      network_id: 128,
-      // from: '0x25067E8678203d841aA05BBc19acb1A098E1c50c',        // Account to send txs from (default: accounts[0])
-      // gas: 5500000,        // Ropsten has a lower block limit than mainnet
-      // gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
-      // confirmations: 2,    // # of confs to wait between deployments. (default: 0)
-      // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-      // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
-    }
+    // mainnet: {
+    //   provider: () => new HDWalletProvider(mnemonic, 'https://http-mainnet.hecochain.com'),
+    //   network_id: 128,
+    //   // from: '0x25067E8678203d841aA05BBc19acb1A098E1c50c',        // Account to send txs from (default: accounts[0])
+    //   // gas: 5500000,        // Ropsten has a lower block limit than mainnet
+    //   // gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
+    //   // confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+    //   // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+    //   // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    // }
   },
 
   // Set default mocha options here, use special reporters etc.
